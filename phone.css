@@ -1,0 +1,182 @@
+*{
+    /* margin: 0px; */
+    padding: 0px;
+    text-align: center;
+}
+.nav{
+    text-align: center;
+    margin-top: 30px;
+
+}
+.logo{
+    text-align: left;
+    margin-top: 10px;
+}
+nav  {
+    width: 100%;
+    /* background-color: gray; */
+    position: absolute;
+    /* top:35px; */
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    /* z-index: 2; */
+}
+nav ul {
+    display: block;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    
+}
+nav ul li a{
+    display: block;
+    font-size: 25px;
+    text-align: center;
+}
+
+.icon{
+    display: initial;
+    float: right;
+    right: 10%;
+    }
+    li a:hover:not(:active){
+         background-color: darkgoldenrod;
+        border-radius: 8px;
+        cursor: pointer;
+
+     }
+     li a.active {
+       background-color: white;
+       border-radius: 12px;
+       padding: 2px;
+       margin: 20px;
+       color: goldenrod;
+
+     }
+ #menulist{
+    overflow: hidden;
+    transition: 0.5s;
+ }   
+ .main-section{
+    /* grid-template-columns: 1fr; */
+    padding: 35px 50px;
+ }
+ :root{
+    h3:1rem;
+    h1:2rem;
+    p:1rem;
+
+}
+.text-container{
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+.container{
+    width: 50%;
+    grid-template-columns: 1fr;
+    /* text-align: center; */
+}
+.section1{
+    padding: 30px 50px;
+}
+.head{
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+.para{
+    margin-right: 30%;
+    grid-template-columns:1fr 1fr;
+}
+.section2{
+    margin-left: 30px;
+    padding: 20px 30px;
+    /* text-align: center; */
+}
+.section2 > div{
+    text-align: center;
+    padding: 20px 30px;
+    grid-template-columns: 1fr;
+}
+#button{
+    margin-left: 30%;
+}
+.heading1 h1,p{
+   margin-left: 20px;
+}
+.skill p,h1{
+   font-size: 15px; 
+   text-align: center; 
+   margin-left: 25px;  
+}
+.skills_section{
+    padding: 20px 35px;
+    margin-right: 25%;
+}
+.flex-container11{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-left: 30%;
+
+    
+}
+.main-container{
+    /* display: flex; */
+   /* padding: 30rem; */
+   justify-content: center;
+   align-items: center;
+   padding: 30px;
+   margin-left: 90px;
+
+}
+.main-container >div{
+    padding: 50px;
+    font-size: 30px;
+    margin-top: 75rem;
+    /* margin-left: 4%; */
+    justify-content: center;
+}
+
+.hero-img{
+    /* position: relative; */
+    margin-left:10%;
+    /* margin-bottom: 40rem; */
+    
+}
+.contact-box{
+    margin: 30px;
+    margin-left: 30px;
+    padding: 20px;
+}
+.logo-box{
+    padding: 40px;
+    margin-bottom: 0px;
+}
+.logo-box2{
+    justify-content: space-evenly;
+    text-align: center;
+    cursor: pointer;
+
+}
+.contact1{
+    padding: 40px;
+}
+.img.box{
+    width: 700px;
+    height: 700px;
+    padding: 30px;
+    justify-content: center;
+}
+.contact-box{
+    margin: 20px;
+}
+.end-box{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+
+}
